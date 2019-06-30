@@ -10,6 +10,6 @@ class IndexController
 
     public function hello_action($name = 'ThinkPHP5')
     {
-        return 'hello,' . $name;
+        return 'hello,' .'ThinkPHP'. $name;
     }
 }
