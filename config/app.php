@@ -47,13 +47,14 @@ return [
     'class_suffix'           => false,
     // 控制器类后缀
     'controller_suffix'      => true,
-
+    //操作方法前缀
+    'action_prefix'          =>'action',
     // 默认模块名
-    'default_module'         => 'index',
+    'default_module'         => 'login',
     // 禁止访问模块
     'deny_module_list'       => ['common'],
     // 默认控制器名
-    'default_controller'     => 'Index',
+    'default_controller'     => 'Login',
     // 默认操作名
     'default_action'         => 'index',
     // 默认验证器
@@ -61,7 +62,7 @@ return [
     // 默认的空控制器名
     'empty_controller'       => 'Error',
     // 操作方法后缀
-    'action_suffix'          => '_action',
+    'action_suffix'          => '',
     // 自动搜索控制器
     'controller_auto_search' => false,
 
